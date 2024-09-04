@@ -30,6 +30,9 @@ s.n. dasgupta
 sumit chakrobarty
 ^d
 ```
+### Output
+![image](https://github.com/user-attachments/assets/b69a0c74-7252-48b5-8cf0-edc15d48854d)
+
 cat > file2
 ```
 anil aggarwal
@@ -39,26 +42,34 @@ lalit chowdury
 s.n. dasgupta
 ^d
 ```
+### Output
+![image](https://github.com/user-attachments/assets/8a763b40-21e8-436a-9694-6195d4d27a50)
+
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/4828d08e-ddaa-44dc-936b-743ef9eb66cf)
 
 
 
 cat < file2
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/e6a2cb3c-640c-45e9-b132-82d5f94f221a)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+![image](https://github.com/user-attachments/assets/22ef396b-c41b-406a-9c81-17af02c86ebe)
+
 comm file1 file2
  ## OUTPUT
+![image](https://github.com/user-attachments/assets/c43d223c-566e-4f59-9ed5-df1992d14b7c)
 
  
 diff file1 file2
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/3a15326f-211a-482c-880e-bdaa139d557e)
 
 
 #Filters
@@ -71,6 +82,9 @@ Hello world
 This is my world
 ^d
 ```
+### Output
+![image](https://github.com/user-attachments/assets/41503e37-82e5-4976-b31b-b81ff2868acd)
+
 cat > file22
 ```
 1001 | Ram | 10000 | HR
@@ -78,21 +92,26 @@ cat > file22
 1003 | Joe |  7000 | Developer
 ^d
 ```
+## Output
+![image](https://github.com/user-attachments/assets/7236e612-f7e5-43f0-a86b-401e42f55cab)
 
 
 cut -c1-3 file11
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/c0a0224b-617a-4ba4-8a5f-0f94af886f76)
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/38613cc5-8480-4a0f-866a-73c317796cca)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/c7e2320a-2636-4deb-9b19-97dc675d4665)
 
 
 cat < newfile 
@@ -101,45 +120,57 @@ Hello world
 hello world
 ^d
 ````
+## output
+![image](https://github.com/user-attachments/assets/7e3aff2f-5d57-4002-b6c8-7b31b59c8172)
+
 cat > newfile 
 Hello world
 hello world
- 
+## Output
+![image](https://github.com/user-attachments/assets/6ab2d2ca-8a50-462e-866b-fa0814ee15e2)
+
 grep Hello newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/c282b644-6384-467b-87c4-9098d67bd9ee)
 
 
 
 grep hello newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/b55a949f-7232-4488-adf8-fb021cb6abca)
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/24b12b5b-7cab-4e79-aa22-e17e0eb4b1f6)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/e2063e01-7159-4fd2-b1d9-e1f5e3cc6e56)
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/bc4e1b55-99c8-4023-ab97-4b336b19591f)
 
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/6527a205-9302-4584-b8c0-87b066b13ecf)
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/25706e75-9e4c-482c-9505-7806e3b236f8)
 
 
 cat < newfile 
